@@ -1,10 +1,11 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using spike_azure_active_directory.Utils;
 
 namespace spike_azure_active_directory.Extensions
 {
